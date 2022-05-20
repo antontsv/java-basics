@@ -10,15 +10,18 @@ Added a bit of everything, with most examples old style and that are likely to b
 javac Showcase.java && java Showcase
 ```
 
-There is a similar file for [Go](https://github.com/antontsv/go-basics)
+In case you want to see similar layout in other language (for side-by-side
+comparison):
+- [Python](https://github.com/antontsv/python-basics)
+- [Go](https://github.com/antontsv/go-basics)
 
 ## Reasons
 
 I switch between different languages often.
 
-Main reason I have created this file is to serve as a quick refresher or cheatsheet for Java.
+Main reason I have created this file is to serve as a quick refresher or cheat sheet for Java.
 
-Most high-level languages have similar features: variables, common datatypes, conditional statements, loops, functions.
+Most high-level languages have similar features: variables, common data types, conditional statements, loops, functions.
 
 Yes, there are a ton of cheat sheets in existence:
 - some are just lacking examples

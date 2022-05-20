@@ -40,7 +40,7 @@ class Showcase {
         dfs(3);
 
         System.out.printf("\nnext up:\n");
-        // One dimentional lists
+        // One dimensional lists
         System.out.println("*** Arrays and lists demo ***");
         int[] fixedArray = new int[2]; // array of size 2, values are zeros
         for (int i = 0; i < fixedArray.length; i++) {
@@ -50,7 +50,7 @@ class Showcase {
                                                              // cast to double
         Arrays.sort(fixedTwo); // Arrays sort() can dealt with array of primitives, for Objects
                                // Collections.sort is used
-        List<Integer> numberList = new ArrayList<>(); // list is interface, arraylist is implementation
+        List<Integer> numberList = new ArrayList<>(); // list is interface, array list is implementation
         numberList.add(3);
         numberList.addAll(Arrays.asList(1, 2));
         // show use of streams (from Java 8+)
@@ -75,7 +75,7 @@ class Showcase {
                 numberList, destList);
 
         System.out.printf("\nnext up:\n");
-        // Multi dimentional lists (matrix)
+        // Multi dimensional lists (matrix)
         System.out.println("*** Multidimensional lists demo ***");
         int[][] matrix = new int[][] { { 1, 2, 3 }, { 4, 5, 6 } };
         for (int r = 0; r < matrix.length; r++) {
@@ -131,7 +131,7 @@ class Showcase {
         // declare new pair to show in case of Object we can have 2 matching instances:
         Pair<Integer, Integer> key = new Pair<>(1, 3);
         if (mapThree.getOrDefault(key, false)) {
-            System.out.println("Map entry with complex key (1,3) is prerent and set to true!");
+            System.out.println("Map entry with complex key (1,3) is present and set to true!");
         }
         mapThree.remove(key);
         // yes, redundant with isEmpty(), but here to stress out the fact
@@ -193,7 +193,7 @@ class Showcase {
             char c = s.charAt(i); // same as above (iterate over 9 chars)
         }
         for (byte bt : s.getBytes()) {
-            // will userate over 13 bytes,
+            // will iterate over 13 bytes,
             // 世界 take 6 bytes
         }
         int i = 0;
