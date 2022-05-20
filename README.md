@@ -1,6 +1,6 @@
 # Java basics
 
-This repository has all-in-one `Showcase.java` that demos basic data structures, syntax, style and features of Java programming language 8+
+This repository has all-in-one [Showcase.java](./Showcase.java) that demos basic data structures, syntax, style and features of Java programming language 8+
 
 Syntax of Java evolved significantly over years, there are many ways to do similar things.
 Added a bit of everything, with most examples old style and that are likely to be encountered in legacy code.
