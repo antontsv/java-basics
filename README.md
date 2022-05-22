@@ -12,8 +12,8 @@ javac Showcase.java && java Showcase
 
 In case you want to see similar layout in other language (for side-by-side
 comparison):
-- [Python](https://github.com/antontsv/python-basics)
-- [Go](https://github.com/antontsv/go-basics)
+- [Python](https://github.com/antontsv/python-basics/blob/main/main.py)
+- [Go](https://github.com/antontsv/go-basics/blob/main/main.go)
 
 ## Reasons
 
